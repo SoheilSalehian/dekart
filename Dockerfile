@@ -4,7 +4,7 @@ ADD package.json .
 ADD package-lock.json .
 ADD .npmrc .
 ENV CI=true
-RUN npm i --legacy-peer-deps
+RUN npm install --legacy-peer-deps
 ADD public public
 ADD src/client src/client
 ADD src/proto src/proto

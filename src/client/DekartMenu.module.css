@@ -1,6 +1,6 @@
 :global(.ant-menu-item) a.dekartLink {
-    color: #57B7D3 !important;
-    font-size: 18px;
+    color: #45ffb5 !important;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
 }
